@@ -33,9 +33,9 @@
 --Tasks 2: Select, Where, Between, AND, LIKE
 --Ques 1
 --INSERT INTO Customers (first_name, last_name, DOB, email, phone_number, address) VALUES
---('John', 'Doe', '1985-04-12', 'john.doe@example.com', '9876543210', '123 Main St, NY'),
---('Jane', 'Smith', '1990-07-19', 'jane.smith@example.com', '8765432109', '456 Oak St, CA'),
---('Robert', 'Brown', '1978-02-23', 'robert.brown@example.com', '7654321098', '789 Pine St, TX');
+--('John', 'Doe', '1985-04-12', 'john.doe@example.com', '9876543210', '123 Main Str, NEW YORK'),
+--('Jane', 'Smith', '1990-07-19', 'jane.smith@example.com', '8765432109', '456 Oak Str, CANADA'),
+--('Robert', 'Brown', '1978-02-23', 'robert.brown@example.com', '7654321098', '78 Bala Str, INDIA');
 
 --INSERT INTO Accounts (customer_id, account_type, balance) VALUES
 --(1, 'savings', 5000.00),
@@ -77,7 +77,7 @@
 
 --6
 --SELECT * FROM Customers 
---WHERE address LIKE '%NY%';
+--WHERE address LIKE '%NEW YORK%';
 
 --7
 --SELECT balance FROM Accounts WHERE account_id = 2;
@@ -101,7 +101,7 @@
 
 --12
 --SELECT * FROM Customers 
---WHERE address NOT LIKE '%NY%';
+--WHERE address NOT LIKE '%NEW YORK%';
 
 --Tasks 3: Aggregate functions, Having, Order By, GroupBy and Joins
 --Ques 1
